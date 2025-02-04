@@ -3,19 +3,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
     android:background="@color/white">
 
     <!-- App Title -->
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="NSC"
         android:textSize="30sp"
         android:layout_gravity="center"
+        android:gravity="center"
         android:textStyle="bold"
-        android:paddingBottom="20dp" />
+        android:paddingBottom="20dp"
+        android:paddingTop="20sp"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"/>
 
     <!-- Grid Layout for Buttons -->
     <GridLayout
